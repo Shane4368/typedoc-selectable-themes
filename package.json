@@ -12,7 +12,7 @@
         "build": "webpack",
         "lint": "prettier --check .",
         "prettify": "npx prettier --write .",
-        "prepublishOnly": "npm run build"
+        "prepare": "npm run build"
     },
     "repository": {
         "type": "git",
