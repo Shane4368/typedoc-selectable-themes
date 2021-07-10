@@ -6,17 +6,9 @@ etc
 bin
 typedoc-default-themes-*.tgz
 
-src/default/assets/images/
-src/**/*.s[ac]ss
 src/**/*.hbs
-src/**/*.ts
 
 # Files to keep
-!src/default/assets/css/elements/_toolbar.sass
-!src/default/assets/css/_theme.scss
-!src/default/assets/js/src/typedoc/components/Filter.ts
-!src/default/assets/js/src/bootstrap.ts
-!src/default/assets/js/src/Theme.ts
 !src/default/layouts/default.hbs
 !src/default/partials/header.hbs
 !src/minimal/layouts/default.hbs
