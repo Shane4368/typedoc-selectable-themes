@@ -11,4 +11,6 @@ src/**/*.hbs
 # Files to keep
 !src/default/layouts/default.hbs
 !src/default/partials/header.hbs
+!src/default/partials/member.hbs
+!src/default/templates/index.hbs
 !src/minimal/**
