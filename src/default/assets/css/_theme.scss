@@ -15,7 +15,7 @@
     --color-comment-tag: #707070;
     --color-comment-tag-text: #fff;
 
-    --color-code-background: #131313;
+    --color-code-background: rgba(0, 0, 0, 0.04);
 
     --color-ts: #9600ff;
     --color-ts-interface: #647f1b;
@@ -26,6 +26,7 @@
     --color-toolbar: #fff;
     --color-toolbar-text: #333;
 
+    --color-codeblock-background: #131313;
     --widget-icon-filter: none;
 
     color-scheme: light;
@@ -59,6 +60,7 @@
     --color-toolbar: var(--color-panel);
     --color-toolbar-text: #fff;
 
+    --color-codeblock-background: var(--color-code-background);
     --widget-icon-filter: invert(0.8);
 
     color-scheme: dark;
