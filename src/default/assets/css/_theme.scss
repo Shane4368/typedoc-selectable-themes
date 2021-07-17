@@ -65,3 +65,55 @@
 
     color-scheme: dark;
 }
+
+// Custom black theme
+:root[data-theme="black"] {
+    --color-background: #000;
+    --color-text: #e9e9e9;
+    --color-text-aside: #999;
+    --color-link: #4da6ff;
+    --color-menu-divider: #000;
+    --color-menu-divider-focus: var(--color-text);
+    --color-menu-label: var(--color-text-aside);
+    --color-panel: #040404;
+    --color-panel-divider: var(--color-menu-divider);
+    --color-comment-tag: var(--color-text-aside);
+    --color-comment-tag-text: var(--color-panel);
+    --color-code-background: rgba(0, 0, 0, 0.04);
+    --color-ts: #c56fff;
+    --color-ts-interface: #95b934;
+    --color-ts-enum: #dab136;
+    --color-ts-class: #2b95ff;
+    --color-ts-private: var(--color-text-aside);
+    --color-toolbar: var(--color-panel);
+    --color-toolbar-text: #fff;
+    --color-codeblock-background: var(--color-code-background);
+    --widget-icon-filter: invert(0.8);
+    color-scheme: dark;
+}
+
+// Custom midnight blue theme
+:root[data-theme="midnight-blue"] {
+    --color-background: hsl(226deg 50% 6%);
+    --color-text: #e9e9e9;
+    --color-text-aside: hsl(226deg 15% 60%);
+    --color-link: #4da6ff;
+    --color-menu-divider: hsl(226deg 50% 4%);
+    --color-menu-divider-focus: var(--color-text);
+    --color-menu-label: var(--color-text-aside);
+    --color-panel: hsl(226deg 50% 8%);
+    --color-panel-divider: var(--color-menu-divider);
+    --color-comment-tag: var(--color-text-aside);
+    --color-comment-tag-text: var(--color-panel);
+    --color-code-background: rgba(0, 0, 0, 0.04);
+    --color-ts: #c56fff;
+    --color-ts-interface: #95b934;
+    --color-ts-enum: #dab136;
+    --color-ts-class: #2b95ff;
+    --color-ts-private: var(--color-text-aside);
+    --color-toolbar: var(--color-panel);
+    --color-toolbar-text: #fff;
+    --color-codeblock-background: var(--color-code-background);
+    --widget-icon-filter: invert(0.8);
+    color-scheme: dark;
+}
