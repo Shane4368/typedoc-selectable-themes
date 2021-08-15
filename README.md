@@ -1,7 +1,33 @@
 # typedoc-selectable-themes
 
-Custom themes for TypeDoc that can be selected from the toolbar. Includes default light theme
-and custom dark theme.
+Custom themes for TypeDoc that can be selected from the toolbar.
+See preview in [this repository](https://github.com/Shane4368/dummy-typescript-project).
+
+## Setup
+
+```bash
+# Install as dev dependency
+npm install --save-dev shane4368/typedoc-selectable-themes
+```
+
+### CLI
+
+```bash
+# Use default theme
+typedoc --options typedoc.json --theme node_modules/typedoc-selectable-themes/bin/default
+
+# Use minimal theme
+typedoc --options typedoc.json --theme node_modules/typedoc-selectable-themes/bin/minimal
+```
+
+### typedoc.json
+
+```json
+{
+    "theme": "node_modules/typedoc-selectable-themes/bin/default",
+    "highlightTheme": "material-ocean"
+}
+```
 
 ## Contributing
 
